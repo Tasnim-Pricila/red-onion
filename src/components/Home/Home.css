@@ -1,0 +1,39 @@
+.banner {
+    height: 80vh;
+    /* width: 100%; */
+    background: url('../../images/bannerbackground.png');
+    background-position: -80px center;
+    background-repeat: no-repeat;
+    background-size: 109%;
+    background-attachment: fixed;
+
+}
+
+.banner-text {
+    padding-top: 180px;
+}
+
+.search-area {
+    width: 500px;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.search-btn {
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    border: 0;
+    background: #ee0868;
+    color: #fff;
+    outline: none;
+    z-index: 2;
+}
