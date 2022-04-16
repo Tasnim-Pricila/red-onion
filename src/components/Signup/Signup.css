@@ -10,13 +10,13 @@
     width: 400px;
     line-height: 3;
 }
-input[type=text], input[type=password], input[type=email]{
+.signup-form input[type=text], .signup-form input[type=password], .signup-form input[type=email]{
     outline: none;
     background-color: rgba(220, 218, 214, 0.432);
     border: none;
     font-weight: 500;
 }
-button{
+.signup-btn, .login-btn{
     background-color: #ee0868;
 }
 .signup-form p{

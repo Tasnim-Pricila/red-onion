@@ -24,6 +24,8 @@
     line-height: 1;
     box-sizing: border-box;
     outline: none;
+    padding: 13px 0;
+    font-weight: 500;
 }
 
 .search-btn {
